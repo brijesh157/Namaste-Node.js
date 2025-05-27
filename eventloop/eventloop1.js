@@ -1,6 +1,7 @@
 
 // Do baat hai kis time pe call hua aur kis time pe finish hua.
-// Asynchronous tasks mein jo jaldi finish wo pehle print hoga.
+// Asynchronous tasks mein first we have to know which task is complee first.
+// After that we can decide the order based on phases of event loop.(order of sending to call stack)
 
 const https = require("https");
 const fs = require("fs");
